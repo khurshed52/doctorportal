@@ -1,0 +1,379 @@
+<!-- 
+Author: khurshed
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login and Register</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/venobox.css" type="text/css" />
+    <link rel="stylesheet" href="vendor/owl/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl/css/owl.theme.default.min.css">
+    <!--===============================================================================================-->
+</head>
+
+<body class="animsition">
+    <!-- Header -->
+    <header>
+        <!-- Header desktop -->
+        <div class="container-menu-desktop">
+            <!-- Topbar -->
+            <div class="top-bar">
+                <div class="content-topbar h-full container">
+                    <div class="right-top-bar flex-w h-full float-right">
+                        <a href="mailto:info@abc.com" target="_top" class="flex-c-m trans-04 p-lr-25">
+                            <i class="fa fa-envelope" aria-hidden="true"></i> info@abcom</a>
+                        <a href="mailto:info@abc.com" target="_top" class="flex-c-m trans-04 p-lr-25">
+                            <i class="fa fa-phone" aria-hidden="true"></i> +1234567890</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="logHeader container">
+                <!-- Logo desktop -->
+                <a href="#" class="logo hideMobileTab">
+                    <img src="images/icons/logo.png" alt="IMG-LOGO">
+                </a>
+
+                <!--login -->
+                <div class="log float-right m-t-9">
+                    <a href="#" class="roundBtn fs-18">
+                        <i class="fa fa-lock" aria-hidden="true"></i> Login </a>
+                </div>
+            </div>
+        </div>
+
+        <!--menu desktop-->
+        <div class="container">
+            <div class="menu-desktop hideMobileTab">
+                <ul class="main-menu float-right">
+                  <li class="active-menu">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Offers</a>
+                    </li>
+                    <li>
+                        <a href="#">For Patients</a>
+                    </li>
+                    <li>
+                        <a href="#"> For Doctors </a>
+                    </li>
+                    <li>
+                        <a href="#"> Contact Us </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--menu desktop-->
+        <!-- Header Mobile -->
+        <div class="wrap-header-mobile">
+            <!-- Logo moblie -->
+            <div class="logo-mobile">
+                <a href="index.html">
+                    <img src="images/icons/logo-01.png" alt="IMG-LOGO">
+                </a>
+            </div>
+            <!-- Button show menu -->
+            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </div>
+        </div>
+
+
+        <!-- Menu Mobile -->
+        <div class="menu-mobile">
+            <ul class="main-menu-m">
+               <li class="active-menu">
+                    <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#">Offers</a>
+                    </li>
+                    <li>
+                        <a href="#">For Patients</a>
+                    </li>
+                    <li>
+                        <a href="#"> For Doctors </a>
+                    </li>
+                    <li>
+                        <a href="#"> Contact Us </a>
+                    </li>
+            </ul>
+        </div>
+
+        <!--Register page page-->
+
+            <hr>
+        <section id="login" class="m-t-16">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-12">
+                        <h2> Login </h2>
+                        <div class="row default-form">
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-12">
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-4 col-form-label">User Name</label>
+                                    <div class="col-8">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-12">
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-4 col-form-label">Password</label>
+                                    <div class="col-8">
+                                        <input type="Password" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-12">
+                        <h2> Register </h2>
+                        <div class="row default-form">
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-12">
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-4 col-form-label">First Name</label>
+                                    <div class="col-8">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-12">
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-4 col-form-label">Last Name</label>
+                                    <div class="col-8">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-12">
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-4 col-form-label">Email ID</label>
+                                    <div class="col-8">
+                                        <input type="Email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-12">
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-4 col-form-label">Mobile</label>
+                                    <div class="col-8">
+                                        <input type="number" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-12">
+                                <div class="form-group row">
+                                    <label for="staticEmail" class="col-4 col-form-label">Specialist
+                                    </label>
+                                    <div class="col-8">
+                                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                            <option selected>All</option>
+                                            <option value="1">Specialist Name 1</option>
+                                            <option value="2">Specialist Name 2</option>
+                                            <option value="3">Specialist Name 3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-12 justify-content-end">
+                                <div class="btnGroup">
+                                    <button class="btn-primarynew" type="submit">
+                                        <i class="fa fa-plus" aria-hidden="true"></i>Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Register page-->
+
+        <footer class="bg3 p-t-25 p-b-15">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-lg-3 co-xl-3 col-6 p-b-50">
+                        <h4 class="stext-301 cl0 p-b-30">
+                            About Compnay
+                        </h4>
+
+                        <ul>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    About Us
+                                </a>
+                            </li>
+
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Privacy
+                                </a>
+                            </li>
+
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Team
+                                </a>
+                            </li>
+
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Contact
+                                </a>
+                            </li>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    FAQ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-lg-3 co-xl-3 col-6 p-b-50">
+                        <h4 class="stext-301 cl0 p-b-30">
+                            Products
+                        </h4>
+
+                        <ul>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Services Name
+                                </a>
+                            </li>
+
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Services Name
+                                </a>
+                            </li>
+
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Services Name
+                                </a>
+                            </li>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Services Name
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-lg-3 co-xl-3 col-6 p-b-50">
+                        <h4 class="stext-301 cl0 p-b-30">
+                            &nbsp;
+                        </h4>
+                        <ul>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Services Name
+                                </a>
+                            </li>
+
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Services Name
+                                </a>
+                            </li>
+
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Services Name
+                                </a>
+                            </li>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Services Name
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-lg-3 co-xl-3 col-6 p-b-50">
+                        <h4 class="stext-301 cl0 p-b-30">
+                            Social Media
+                        </h4>
+                        <div class="p-t-27 social">
+                            <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+
+                            <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+
+                            <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                                <i class="fa fa-pinterest-p"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </p>
+            </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="container">
+                <p class="colorWhite">Copyright ©2018 SeconDoctor.com All Right Reserved </p>
+            </div>
+        </div>
+
+
+        <!-- Back to top -->
+        <div class="btn-back-to-top bor0" id="myBtn">
+            <span class="symbol-btn-back-to-top">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+        </div>
+
+        <!--===============================================================================================-->
+        <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <script src="vendor/owl/js/owl.carousel.min.js"></script>
+        <script src="js/venobox.min.js" type="text/javascript"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/animsition/js/animsition.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/bootstrap/js/popper.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/select2/select2.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/daterangepicker/moment.min.js"></script>
+        <script src="vendor/daterangepicker/daterangepicker.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/slick/slick.min.js"></script>
+        <script src="js/slick-custom.js"></script>
+        <!--===============================================================================================-->
+        <script src="js/main.js"></script>
+</body>
+
+</html>
